@@ -1,0 +1,42 @@
+
+### .gitignore
+
+```plaintext
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output directories
+bin/
+build/
+dist/
+
+# Go modules
+go.mod
+go.sum
+
+# Vendor directory
+vendor/
+
+# Environment variables
+.env
+
+# Configuration files
+config.json
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
